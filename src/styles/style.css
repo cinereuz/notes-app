@@ -1,0 +1,109 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1,
+h2 {
+  color: #000;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #ecf0f1;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #3498db;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  margin: 2px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.arsip {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.arsip button {
+  background-color: #c0392b;
+}
+
+.arsip button:hover {
+  background-color: #922b21;
+}
+
+textarea {
+  height: 150px;
+}
+
+nav {
+  width: fit-content;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 10px;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+nav ul li a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #3498db;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #3498db;
+  color: #fff;
+}
